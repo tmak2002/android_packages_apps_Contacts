@@ -66,7 +66,7 @@
         <item name="list_item_photo_size">@dimen/contact_browser_list_item_photo_size</item>
         <item name="list_item_profile_photo_size">70dip</item>
         <item name="list_item_prefix_highlight_color">#363636</item>
-        <item name="list_item_background_color">#ff303030</item>
+        <item name="list_item_background_color">@*android:color/background_device_default_dark</item>
         <item name="list_item_header_text_color">#363636</item>
         <item name="list_item_header_text_size">14sp</item>
         <item name="list_item_header_height">30dip</item>
@@ -75,13 +75,13 @@
         <item name="list_item_header_text_indent">8dip</item>
         <item name="contact_browser_list_padding_left">0dip</item>
         <item name="contact_browser_list_padding_right">0dip</item>
-        <item name="contact_browser_background">@*android:color/background_material_dark</item>
+        <item name="contact_browser_background">@*android:color/background_device_default_dark</item>
         <item name="list_item_text_indent">@dimen/contact_browser_list_item_text_indent</item>
         <!-- Favorites -->
         <item name="favorites_padding_bottom">0dip</item>
     </style>
 
-    <style name="PeopleThemeAppCompat" parent="@style/Theme.AppCompat">
+    <style name="PeopleThemeAppCompat" parent="@style/DeviceDefault.Theme.AppCompat">
         <!-- Styles that require AppCompat compatibility, remember to update both sets -->
         <!--
         <item name="android:actionBarStyle">@style/ContactsActionBarStyleAppCompat</item>
@@ -270,7 +270,7 @@
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="LaunchScreenTheme" parent="@style/Theme.AppCompat">
+    <style name="LaunchScreenTheme" parent="@style/DeviceDefault.Theme.AppCompat">
         <item name="android:windowBackground">@drawable/quantum_launchscreen_contacts</item>
         <!-- Ensure the status bar color matches the background -->
         <item name="android:colorPrimaryDark">@android:color/black</item>
